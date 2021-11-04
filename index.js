@@ -6,7 +6,7 @@ function checkbirthday(){
   let monthofbirth;
   let nameUser;
   const today_date=new Date();
-
+ 
   const today_day=today_date.getDay();
 
   const today_month=today_date.getMonth();
@@ -124,7 +124,7 @@ localStorage.setItem("yearOfBirth",birth_year);
  })
 
 
- 
+
 
  document.getElementById("input-btn-delete").addEventListener("click",function(){
     
